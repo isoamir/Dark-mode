@@ -1,0 +1,36 @@
+/* src/App.css */
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.app-container.light {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.app-container.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
